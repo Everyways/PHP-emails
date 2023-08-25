@@ -1,0 +1,21 @@
+{
+    "name": "phpemailreader/phpemailreader",
+    "description": "PHP Email reader",
+    "type": "project",
+    "license": "open bar",
+    "autoload": {
+        "psr-4": {
+            "Phpemailreader\\": "class/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Everyways"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php-imap/php-imap": "^2.0",
+        "devcoder-xyz/php-dotenv": "dev-main"
+    }
+}
